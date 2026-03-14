@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="launcher_name">HEXO</string>
     <string name="generic_cancel">Cancel</string>
     <string name="generic_confirm">Confirm</string>
     <string name="generic_error">Error</string>
@@ -20,8 +21,7 @@
     <string name="generic_download">Download</string>
     <string name="generic_done">Done</string>
     <string name="generic_close">Close</string>
-    <string name="generic_clear">Clear</string>
-    <string name="generic_import">Import</string>
+    <string name="generic_clear">Clear</string    <string name="generic_import">Import</string>
     <string name="generic_enable">Enable</string>
     <string name="generic_disable">Disable</string>
     <string name="generic_open_link">Open in Browser</string>
