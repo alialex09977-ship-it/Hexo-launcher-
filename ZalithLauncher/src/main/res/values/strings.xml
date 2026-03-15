@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="launcher_name">HEXO</string>
     <string name="generic_cancel">Cancel</string>
     <string name="generic_confirm">Confirm</string>
     <string name="generic_error">Error</string>
@@ -55,9 +54,11 @@
     <string name="generic_copied">Copied</string>
     <string name="generic_no_matching_items">No matching items</string>
     <string name="generic_follow_system">Follow System</string>
+    <!-- Files -->
     <string name="files_browse_folder">Browse Folder</string>
     <string name="files_importing">Importing Files</string>
     <string name="files_delete_file">Are you sure you want to delete %s?</string>
+    <!-- Unit -->
     <string name="unit_day">day</string>
     <string name="date_format">MMM d, yyyy, h:mm:ss a</string>
     <string name="just_now">just now</string>
@@ -67,13 +68,16 @@
     <string name="months_ago">%d months ago</string>
     <string name="years_ago">%d years ago</string>
     <string name="empty_holder" translatable="false">%s</string>
+    <!-- Sort By -->
     <string name="sort_by">Sort By</string>
     <string name="sort_by_name">Sort by Name</string>
     <string name="sort_by_file_name">Sort by File Name</string>
     <string name="sort_by_last_modified">Sort by Last Modified</string>
     <string name="sort_by_last_played">Sort by Last Played</string>
+    <!-- Launcher Version -->
     <string name="launcher_version_debug_warning">You are using a test version of %s! This version may be unstable and is primarily intended for feature testing and early access. It is not recommended for long-term use! If you encounter any issues during testing, please report them to us via GitHub and we will address them as soon as possible.</string>
     <string name="launcher_version_debug_warning_cant_close">This warning cannot be dismissed</string>
+    <!-- Themes -->
     <string name="theme_color_dynamic">Dynamic (Android 12+)</string>
     <string name="theme_color_embermire">Embermire</string>
     <string name="theme_color_velvet_rose">Velvet Rose</string>
@@ -85,9 +89,11 @@
     <string name="theme_color_picker_title">Color Picker</string>
     <string name="theme_color_picker_edit_hex">Edit Hex</string>
     <string name="theme_color_picker_edit_hex_invalid">Invalid Hex</string>
+    <!-- Animations -->
     <string name="animate_type_bounce">Bounce</string>
     <string name="animate_type_jelly_bounce">Jelly Bounce</string>
     <string name="animate_type_slice_in">Slice In</string>
+    <!-- Crash Handling -->
     <string name="crash_launcher_title">%s has encountered a fatal error</string>
     <string name="crash_launcher_message">The application crashed unexpectedly. The error details below will help developers improve the app.</string>
     <string name="crash_exit_message">JVM exited with code %d.</string>
@@ -106,6 +112,7 @@
     <string name="crash_link_share_failed_link_not_found">No available link found. Please try again later.</string>
     <string name="crash_launch_crash_title">App Launch Failed</string>
     <string name="crash_launch_crash_message">The launcher encountered a serious problem and crashed during startup</string>
+    <!-- Errors -->
     <string name="error_import_image">Failed to import image</string>
     <string name="error_import_file">An error occurred while importing the file</string>
     <string name="error_create_dir">Failed to create directory: %s</string>
@@ -117,18 +124,22 @@
     <string name="error_notfound">(%s) Resource not found</string>
     <string name="error_client_error">(%s) Client error</string>
     <string name="error_unknown">Unknown error: %s</string>
+    <!-- Splash Screen -->
     <string name="splash_screen_unpack_desc">The launcher needs to install these files to ensure Minecraft runs properly. They are included in the app and must be extracted first. Click the button below to start extraction and update.</string>
     <string name="splash_screen_installing">The launcher is extracting these files. Once done, it will automatically enter the main screen. Please wait patiently.</string>
     <string name="splash_screen_agree">Install</string>
+    <!--  Notification  -->
     <string name="notification_title">Check Notification Permission</string>
     <string name="notification_request">Request Permission</string>
     <string name="notification_data_jvm_service_message">To ensure a smooth installation, the launcher needs to run the installer in the foreground. We\'ll try to start a foreground service to maintain stability, but this requires notification permissions. Could you help us enable notification permissions? This will help prevent installation interruptions!</string>
     <string name="notification_data_jvm_service_name">Foreground Installation Service</string>
     <string name="notification_data_jvm_service_running">Installing the game via foreground service</string>
     <string name="notification_data_terracotta_message">During multiplayer sessions, the launcher uses a foreground service to display the current connection status, so notification permission is required.</string>
+    <!--  Microphone  -->
     <string name="microphone_check_title">Check Microphone Input</string>
     <string name="microphone_check_volume">Volume: %d</string>
     <string name="microphone_check_no_permissions">Microphone Permission Not Granted to Launcher</string>
+    <!-- Unpacking -->
     <string name="unpack_screen_jre8">Java 8 Environment (required for Minecraft 1.16 and below)</string>
     <string name="unpack_screen_jre17">Java 17 Environment (required for Minecraft 1.17+)</string>
     <string name="unpack_screen_jre21">Java 21 Environment (required for Minecraft 1.20.5+)</string>
@@ -136,8 +147,10 @@
     <string name="unpack_screen_cacio">Portable GUI backend for OpenJDK</string>
     <string name="unpack_screen_lwjgl">Lightweight Java Game Library (required by Minecraft)</string>
     <string name="unpack_screen_launcher">Essential launcher components</string>
+    <!-- Main Menu -->
     <string name="main_launch_game">Launch</string>
     <string name="main_task_menu">Task Menu</string>
+    <!--  Download  -->
     <string name="download_category_game">Game</string>
     <string name="download_category_modpack">Modpack</string>
     <string name="download_category_mod">Mod</string>
@@ -186,5 +199,60 @@
     <string name="download_install_clear_temp">Clear cache files</string>
     <string name="download_install_input_version_name">Waiting for user to enter version name</string>
     <string name="download_install_input_version_name_title">Enter the pre-installed version name</string>
-    <string name="download_install
-        
+    <string name="download_install_warning_mobile_data">You are using mobile data. Continuing the download will consume data.</string>
+    <string name="download_assets_filter_search_name">Search Name</string>
+    <string name="download_assets_filter_search_platform">Target Platform</string>
+    <string name="download_assets_filter_game_version">Game Version</string>
+    <string name="download_assets_filter_category">Category</string>
+    <string name="download_assets_filter_modloader">Mod Loader</string>
+    <string name="download_assets_filter_none">None Selected</string>
+    <string name="download_assets_filter_sort_by_relevant">Relevance</string>
+    <string name="download_assets_filter_sort_by_total_downloads">Total Downloads</string>
+    <string name="download_assets_filter_sort_by_popularity">Popularity</string>
+    <string name="download_assets_filter_sort_by_recently_created">Recently Created</string>
+    <string name="download_assets_filter_sort_by_recently_updated">Recently Updated</string>
+    <string name="download_assets_result_authors">By %s</string>
+    <string name="download_assets_result_previous_page">Previous Page</string>
+    <string name="download_assets_result_next_page">Next Page</string>
+    <string name="download_assets_failed_to_get_result">Failed to get search results: %s. Tap to retry.</string>
+    <string name="download_assets_failed_to_get_project">Failed to retrieve project information: %s. Tap to retry.</string>
+    <string name="download_assets_failed_to_get_versions">Failed to retrieve version list: %s. Tap to retry.</string>
+    <string name="download_assets_show_only_mc_release">Show Only MC Releases</string>
+    <string name="download_assets_search_mc_versions">Search MC Versions</string>
+    <string name="download_assets_dependency_projects">Dependencies</string>
+    <string name="download_assets_optional_projects">Optional Projects</string>
+    <string name="download_assets_loading_page_data">Starting to load paged data</string>
+    <string name="download_assets_loaded_chunk_page">Paged data loaded, chunk %1$d, page %2$d</string>
+    <string name="download_assets_loading_dep_project">Loading and caching dependency project, ID: %s</string>
+    <string name="download_assets_links">Related Links</string>
+    <string name="download_assets_project_link">Project Page</string>
+    <string name="download_assets_source_link">View Source Code</string>
+    <string name="download_assets_issues_link">Report Issues</string>
+    <string name="download_assets_wiki_link">View Wiki</string>
+    <string name="download_assets_release_type_release">Stable</string>
+    <string name="download_assets_release_type_beta">Beta</string>
+    <string name="download_assets_release_type_alpha">Alpha</string>
+    <string name="download_assets_no_installed_versions">No available game version is currently installed, so the target download location for the asset cannot be determined. Please install a game version first!</string>
+    <string name="download_assets_install_assets_for_versions">Install for which game versions?</string>
+    <string name="download_assets_install_progress_downloading">Downloading and installing assets\n%1$s\n (%2$s / %3$s)</string>
+    <string name="download_assets_install_progress_installing">Installing assets\n%s</string>
+    <string name="download_assets_install_failed">Failed to install assets!</string>
+    <string name="download_modpack_warning1">Before installation, you need to understand that most modpacks are made for PC, and there\'s a high chance of crashes or other issues when you try to launch them. These problems are often beyond what the launcher can resolve.</string>
+    <string name="download_modpack_warning2">You will need to learn the relevant knowledge to try and resolve the issues yourself, or seek help from others.</string>
+    <string name="download_modpack_warning3">Note: The launcher developers typically do not handle issues caused by modpacks.</string>
+    <string name="download_modpack_install_title">Installing modpack</string>
+    <string name="download_modpack_install_parse">Parse modpack</string>
+    <string name="download_modpack_install_get_mod_url">Get mod download link (%1$d/%2$d)</string>
+    <string name="download_modpack_install_overrides">Extract modpack files</string>
+    <string name="download_modpack_download">Download required content for modpack</string>
+    <string name="download_modpack_download_mods">Download all mods (%1$d/%2$d, %3$s)</string>
+    <string name="download_modpack_download_mods_retry">Retry downloading all mods (%1$d/%2$d, %3$s)</string>
+    <string name="download_modpack_get_loaders">Retrieve loader information</string>
+    <string name="download_modpack_final_move">Moving modpack files</string>
+    <!--  Assets Category  -->
+    <string name="download_assets_category_worldgen">World Generation</string>
+    <string name="download_assets_category_biomes">Biomes</string>
+    <string name="download_assets_category_dimensions">Dimensions</string>
+    <string name="download_assets_category_ores_resources">Ores &amp;amp; Resources</string>
+    <string name="download_assets_category_structures">Structures</string>
+    <string name="download_assets_category_t
